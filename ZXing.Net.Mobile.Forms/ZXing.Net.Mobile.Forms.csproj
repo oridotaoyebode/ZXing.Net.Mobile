@@ -3,7 +3,7 @@
 		<TargetFrameworks>netstandard2.0;Xamarin.iOS10;Xamarin.Mac20;MonoAndroid11.0</TargetFrameworks>
 		<AssemblyName>ZXing.Net.Mobile.Forms</AssemblyName>
 		<RootNamespace>ZXing.Net.Mobile.Forms</RootNamespace>
-		<PackageId>ZXing.Net.Mobile.Forms</PackageId>
+		<PackageId>ZXing.Net.Mobile.Forms.Oyedata</PackageId>
 		<PackageIcon>icon.png</PackageIcon>
 		<Summary>ZXing Barcode Scanning for your Xamarin.iOS, Xamarin.Android and Windows Universal apps!</Summary>
 		<PackageTags>barcode, zxing, zxing.net, qr, scan, scanning, scanner</PackageTags>
