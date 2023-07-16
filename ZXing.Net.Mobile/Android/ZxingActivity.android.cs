@@ -22,7 +22,7 @@ using System.Threading.Tasks;
 
 namespace ZXing.Mobile
 {
-	[Activity(Label = "Scanner", ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenLayout)]
+	[Activity(Label = "Scanner", Exported = true, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenLayout)]
 	public class ZxingActivity : FragmentActivity
 	{
 		public static readonly string[] RequiredPermissions = new[] {
