@@ -9,7 +9,7 @@ using Android.OS;
 
 namespace Sample.Forms.Droid
 {
-	[Activity(Label = "ZXing Forms", Icon = "@mipmap/launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity(Label = "ZXing Forms", Exported = true, Icon = "@mipmap/launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		App formsApp;
