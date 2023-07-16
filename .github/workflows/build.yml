@@ -10,7 +10,7 @@ jobs:
     build:
       name: Build
       env:
-        NUPKG_MAJOR: 3.3
+        NUPKG_MAJOR: 4.0
       runs-on: windows-latest
       steps:
       - name: Checkout
@@ -51,7 +51,7 @@ jobs:
             nuget-version: 'latest'
         - name: Push to GitHub Packages
           run: |
-            nuget sources add -Name "GPR" -Source "https://nuget.pkg.github.com/Redth/index.json" -UserName Redth -Password ${{ secrets.GITHUB_TOKEN }}
+            nuget sources add -Name "GPR" -Source "https://nuget.pkg.github.com/oridotaoyebode/index.json" -UserName oridotaoyebode -Password ${{ secrets.PAT_TOKEN }} 
             nuget setApiKey ${{ secrets.NUGET_API_KEY }} --source "GPR" --skip-duplicate
             nuget push NuGet\*.nupkg -Source "GPR"
         - name: Push to NuGet.org
