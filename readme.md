@@ -1,5 +1,7 @@
 # ZXing.Net.Mobile
 
+#DISCLAIMER : THIS FORK IS MEANT TO ALLOW THE APP TO RUN ON API LEVEL 33 on ANDROID
+
 [![Join the chat at https://gitter.im/Redth/ZXing.Net.Mobile](https://badges.gitter.im/Redth/ZXing.Net.Mobile.svg)](https://gitter.im/Redth/ZXing.Net.Mobile?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![ZXing.Net.Mobile Logo](https://raw.github.com/Redth/ZXing.Net.Mobile/master/zxing.net.mobile_128x128.png)
